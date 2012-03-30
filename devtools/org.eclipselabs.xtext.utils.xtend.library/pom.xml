@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse.xtend</groupId>
+	<artifactId>xtend-library</artifactId>
+	<version>2.2.1</version>
+	<packaging>pom</packaging>
+	<name>Xtend Library Dependencies</name>
+	<description>Required dependencies for Xtend language which are contributed in Eclipse via Xtend Library classpath container</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.plugins</groupId>
+			<artifactId>org.eclipse.xtext.xbase.lib</artifactId>
+			<version>2.2.1.v201112130541</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.plugins</groupId>
+			<artifactId>org.eclipse.xtend2.lib</artifactId>
+			<version>2.2.1.v201112130541</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.plugins</groupId>
+			<artifactId>com.google.inject</artifactId>
+			<version>3.0.0.no_aop</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.plugins</groupId>
+			<artifactId>com.google.guava</artifactId>
+			<version>10.0.1.1</version>
+		</dependency>
+	</dependencies>
+</project>
