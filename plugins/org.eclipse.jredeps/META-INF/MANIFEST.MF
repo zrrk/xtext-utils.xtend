@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse JRE Dependencies
+Bundle-SymbolicName: org.eclipse.jredeps
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: itemis
+Fragment-Host: org.eclipse.osgi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: javax.crypto,
+ javax.crypto.spec,
+ javax.security,
+ javax.security.auth,
+ javax.security.auth.callback,
+ javax.security.auth.login,
+ javax.security.auth.spi
